@@ -1,0 +1,216 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+nav{
+    background-color: #1C1145;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom:1px solid red;
+}
+nav > img{
+ max-width: 50px;
+ max-height: 50px;
+ border-radius: 50%;
+ margin: 5px 0px 5px 30px;
+}
+.frist-ul{
+    display: flex;
+    margin-right: 20px;
+}
+.frist-ul >li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.frist-ul >li > a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+    transition: 0.5s;
+
+}
+.frist-ul li a:hover{
+    background-color: rgba(129, 132, 152, 0.522);
+    color: red;
+
+} 
+/* hero area starat */
+.name{
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+    
+
+.name h2{
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.382);
+    text-align: center;
+    width: 600px;
+    border-radius: 20px;
+    padding: 30px 0px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    animation-name: name;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-iteration-count: 4; */
+    position: relative;
+    /* animation-direction: alternate-reverse; */
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes name{
+    0%{
+        background-color: #45453977;
+        
+    }
+    25%{
+        background-color: rgba(105, 6, 6, 0.46);
+      
+    }
+    50%{
+        background-color: #9c56009a;
+   
+    }
+    75%{
+        background-color: #ff00e677;
+     
+    }
+    100%{
+        background-color: rgba(128, 255, 0, 0.285);
+       
+    }
+}
+
+header{
+   background-image: url("img/secound.web.png");
+   padding: 200px 0px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-box i{
+    color: red;
+    background-color: black;
+    font-size: 20px;
+    width: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.search-box  input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+/* main area start  */
+main{
+    background-color: #79394A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-parent{
+    width: 1000px;
+    background-color:#79394A;
+    margin: auto;
+}
+.videos-parent{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.videos-parent div h2 {
+    font-size: 30px;
+    color: #358cac;
+}
+#page-design h4{
+    font-size: 20px;
+    color: #358cac;
+    font-weight: bold;
+}
+#page-design h4  span{
+    padding:6px;
+    background-color: rgba(206, 194, 194, 0.885);
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+.card-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px 20px;
+}
+.singel-card{
+    height: 200px;
+    width: 230px;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+.singel-card img{
+    width: 100%;
+    height: 100%;
+}
+.singel-card div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: gray;
+}
+.singel-card:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px red;
+}
+.button-parent{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-parent a {
+    text-decoration: none;
+    color: white;
+}
+.button-parent h3{
+    background-color: #132B4C;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5;
+}
+.button-number a{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #132B4C;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 10px 5px;
+}
+.button-number a:hover{
+    background-color: #000000a0;
+}
+.button-parent h3:hover{
+    background-color: #000000b8;
+}
