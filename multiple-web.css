@@ -214,3 +214,59 @@ main{
 .button-parent h3:hover{
     background-color: #000000b8;
 }
+/* foter section  */
+footer{
+    padding-top:40px;
+    background-color: #0C2A7E;
+}
+.parent-foter{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+.frist-foter{
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+.frist-foter p{
+    margin: 30px;
+    text-align: justify;
+}
+.secound-foter{
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+.secound-foter h2{
+ margin-bottom: 30px;
+}
+.secound-foter a{
+    text-decoration: none;
+    color: white;
+}
+.secound-foter p{
+    padding: 5px;
+}
+.tried-foter{
+    width: 300px;
+    text-align: center;
+}
+.tried-foter i{
+    font-size: 30px;
+    color: white;
+    padding: 7px;
+}
+.tried-foter a{
+    text-decoration: none;
+}
+.tried-foter h6{
+    font-size: 15px;
+    margin-top: 30px;
+    color: white;
+}
+.tried-foter p{
+    color: white;
+    padding: 7px;
+}
