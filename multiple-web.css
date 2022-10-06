@@ -8,6 +8,8 @@ nav{
     justify-content: space-between;
     text-align: center;
     border-bottom:1px solid red;
+    position: sticky;
+    top: 0px;
 }
 nav > img{
  max-width: 50px;

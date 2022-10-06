@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: #1C1145;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom:1px solid red;
+    position: sticky;
+    top: 0px;
+}
+nav > img{
+ max-width: 50px;
+ max-height: 50px;
+ border-radius: 50%;
+ margin: 5px 0px 5px 30px;
+}
+.frist-ul{
+    display: flex;
+    margin-right: 20px;
+}
+.frist-ul >li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.frist-ul >li > a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+    transition: 0.5s;
+
+}
+.frist-ul li a:hover{
+    background-color: rgba(129, 132, 152, 0.522);
+    color: red;
+
+} 
+
+main{
+    background-color: #79394A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-parent{
+    width: 1000px;
+    background-color:#79394A;
+    margin: auto;
+}
+.videos-parent{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.videos-parent div h2 {
+    font-size: 30px;
+    color: #358cac;
+}
+#page-design h4{
+    font-size: 20px;
+    color: #358cac;
+    font-weight: bold;
+}
+#page-design h4  span{
+    padding:6px;
+    background-color: rgba(206, 194, 194, 0.885);
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+.card-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px 20px;
+}
+.singel-card{
+    height: 200px;
+    width: 230px;
+    border: 2px solid gray;
+    transition: 0.5s;
+}
+.singel-card img{
+    width: 100%;
+    height: 100%;
+}
+.singel-card div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: gray;
+}
+.singel-card:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px red;
+}
+.button-parent{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.button-parent a {
+    text-decoration: none;
+    color: white;
+}
+.button-parent h3{
+    background-color: #132B4C;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5;
+}
+.button-number a{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #132B4C;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 10px 5px;
+}
+.button-number a:hover{
+    background-color: #000000a0;
+}
+.button-parent h3:hover{
+    background-color: #000000b8;
+}
